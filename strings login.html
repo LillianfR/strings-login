@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "strings.js"></script>
+    <link rel="stylesheet" href="strings.css">
+    <!--css and js connection-->
+    
+<login>
+<h1> Login Form</h1>
+
+<form id = "login" onsubmit = "return false">
+    First Name: <input type = "text" id = "fName"/>
+    <br>
+    Last Name: <input type = "text" id = "lName"/>
+    <br>
+    Badge Number: <input type = "number" id = "badgeID"/>
+    <br>
+    Password: <input type = "password" id ="PW"/>
+    <input type = "submit" onclick = "checkCreds();">
+
+</form>
+
+<p id = "loginStatus"></p>
+</login>
+
+</body>
+</html>

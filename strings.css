@@ -1,0 +1,30 @@
+html{
+    background: linear-gradient(90deg,rgb(255, 143, 225), rgb(154, 222, 154));
+    color:black
+    }
+    /*linear gradient pink to green left to right*/
+    
+body{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 140px;
+
+}
+answer{
+    font-size: 25px;
+    font-style: oblique;
+}
+
+login{                                       
+    margin-left: 70px;
+    font-weight: bold ;
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+    font-family:sans-serif,bold, Arial, Helvetica;
+    font-size:14px;
+
+}
