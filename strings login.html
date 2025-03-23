@@ -3,12 +3,14 @@
 <body>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src = "strings.js"></script>
+<!--css and js connection-->
+        <script src = "strings.js"></script>
     <link rel="stylesheet" href="strings.css">
-    <!--css and js connection-->
     
 <login>
 <h1> Login Form</h1>
+
+ <!--forms ids that match up with input id-->
 
 <form id = "login" onsubmit = "return false">
     First Name: <input type = "text" id = "fName"/>
@@ -21,9 +23,9 @@
     <input type = "submit" onclick = "checkCreds();">
 
 </form>
+ <!-- login stats-->
 
 <p id = "loginStatus"></p>
 </login>
-
 </body>
 </html>
